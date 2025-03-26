@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. APJ Abdul Kalam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .bio {
+            font-size: 1.2em;
+            margin: 20px 0;
+            color: #34495e;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Confetti Style */
+        .confetti {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        .confetti span {
+            position: absolute;
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: #f39c12;
+            animation: fall 3s infinite ease-in-out;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-100vh);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+<body>
+<img src="images.jpg">
+    <div class="confetti">
+        <!-- Confetti effect -->
+        <span style="left: 10%; animation-delay: 0s;"></span>
+        <span style="left: 30%; animation-delay: 0.5s;"></span>
+        <span style="left: 50%; animation-delay: 1s;"></span>
+        <span style="left: 70%; animation-delay: 1.5s;"></span>
+        <span style="left: 90%; animation-delay: 2s;"></span>
+    </div>
+    <img 
+    <h1><br>Tribute to Dr. APJ Abdul Kalam</h1>
+    <p class="bio">
+        Dr. APJ Abdul Kalam was an Indian scientist and the 11th President of India. He was known for his work in the field of missile technology and his visionary leadership. A humble man with a heart full of dreams, he inspired millions through his passion for education, science, and nation-building. His contributions to India's defense and his commitment to empowering youth remain unparalleled.
+    </p>
+
+    <p>To know more about his life and achievements, visit his <a href="https://en.wikipedia.org/wiki/APJ_Abdul_Kalam" target="_blank">Wikipedia page</a>.</p>
+</body>
+</html>
